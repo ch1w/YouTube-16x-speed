@@ -1,7 +1,3 @@
-function setSpeed() {
-    const videos = document.getElementByTagName("video");
-    videos.playbackRate = 16.0;
+const video = document.querySelector("video");
 
-}
-
-window.addEventListener("load", setSpeed);
+video.playbackRate = 16.0;
