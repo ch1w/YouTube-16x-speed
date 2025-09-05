@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube 16x Speed",
+  "version": "1.0",
+  "description": "YouTube videos will always play at 16x speed.",
+  "content_scripts": [
+    {
+      "matches": ["*://www.youtube.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
